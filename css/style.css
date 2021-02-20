@@ -1,0 +1,132 @@
+.links {
+display: inline-block;
+}
+
+.hptl {
+margin-left: 20px;
+}
+.hptr {
+position: absolute;
+right: 15px;
+top: 8px;
+display: flex;
+gap: 10px;
+}
+
+a {
+color: black;
+text-decoration: none;
+line-height: 40px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 13px;
+}
+
+.pad {
+padding-right: 12px;
+}
+a:hover {
+text-decoration: underline;
+}
+.app {
+    margin-top: 12px;
+    width: 16px;
+    height: 16px;
+}
+
+.amaury {
+border-radius: 25px;
+width: 40px;
+height: 40px;
+}
+
+.google-container {
+    max-width: 450px;
+    margin: 150px auto;
+} 
+.g-img {
+width: 100%;
+}
+.search {
+width: 100%;
+border-radius: 15px;
+line-height: 24px;
+border: 1px solid #dee1e5;
+padding-left: 29px;
+padding-top: 2px;
+}
+
+input:hover {
+box-shadow: 0 1px 6px rgba(32,33,36,.28);
+}
+
+input:focus {
+outline: none;
+}
+.track {
+    position: relative;
+}
+.mag-icon {
+width: 22px;
+height: auto;
+position: absolute;
+top: 3px;
+left: 8px;
+}
+.mic-icon {
+position: absolute;
+width: 20px;
+height: auto;
+top: 4px;
+right: 9px;
+}
+
+.button {
+display: inline-block;
+border: 1px solid #f8f9fa ;
+background-color: #f8f9fa;
+color: #3c4043;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+padding: 0 16px;
+line-height: 27px;
+height: 36px;
+min-width: 54px;
+text-align: center;
+cursor: pointer;
+user-select: none;
+box-sizing: border-box;
+border-radius: 4px;
+}
+
+.button-container {
+display: flex;
+gap: 10px;
+justify-content: center; 
+margin-top: 18px;   
+}
+
+footer {
+border-top: 1px solid #dadce0;
+background-color: #f2f2f2;
+text-align: center;
+line-height: 40px;
+position: absolute;
+bottom: 0;
+width: 100%;
+}
+
+.leaf {
+width: 14px;
+height: auto;
+}
+.carbon, .link {
+color: #70757a;
+font-family: Arial, sans-serif;
+font-size: 14px;
+}
+
+.footer-row2, .footer-row3 {
+display: flex;
+justify-content: center;
+gap: 25px;
+}
